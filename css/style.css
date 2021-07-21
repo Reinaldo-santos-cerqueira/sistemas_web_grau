@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+#div_principal{
+    background-image: url("../images/bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+}
+#div_form{
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color:white;
+    left: 15%;
+    top: 10%;
+    border-radius: 50px;
+}
+#menu{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color:white;
+    left: 15%;
+    margin-top:5%;
+    border-radius: 50px;
+}
+#div_form_cadastro{
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color:white;
+    left: 15%;
+    top: 2%;
+    border-radius: 50px;
+}        
+form{
+    padding: 50px;
+    align-items: center;
+}
+input,label,select{
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 20px;
+    border-radius: 50px;
+    padding:5px 0;
+}
+input:focus,select:focus,textarea:focus{
+    border: none;
+    outline: none;
+}
+input[type=submit]{
+    margin-top:3%;
+    background-color: #66B44E;
+    padding: 5px 30px;
+    border-radius: 50px;
+    color:white;
+}
+#footer-1{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: right;
+    right: 50px;
+    height: 30px;
+    font-size:25px;
+    color:white;
+}
+#footer-1 a{
+    color: #f9f9f9;
+}
+#footer-1 a:hover{
+    color: #f9f9f999;
+}
+#btns-a a:first-child{
+    position: absolute;
+    bottom: 5%;
+}
+#btns-a a{
+    color:white;
+    font-size: 1.5rem;
+    text-decoration:none;
+}
+#btns-a a:hover{
+    color:#ffffff99;
+    text-decoration: underline;
+}
+#menu button{
+    width: 100%;
+    font-size: 2rem;
+    border-radius: 50px;
+    background-color: #66B44E;
+    color: white;
+    cursor: pointer;
+    margin-top: 10%;
+    padding: 5px;
+}
+#menu form h1{
+    font-size: 1.8rem;
+    text-align: center;
+}
+textarea{
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 20px;
+    border-radius: 25px;
+    padding:5px 0;
+}
+#div_principal_ticktes{
+    background-image: url("../images/bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+#div_form1{
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color:white;
+    left: 15%;
+    top: 2%;
+    border-radius: 50px;
+}
+.opacity{
+    background-color: #01010144;
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+}
+.container-fluid .card{
+    background-color: #202124;
+    color: #F1F1F1;
+    border-radius: 20px;
+}
+.container-fluid .card a{
+    border-radius: 50px;
+}
